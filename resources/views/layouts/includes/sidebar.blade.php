@@ -4,16 +4,16 @@
             <a href="#"><i class="fa fa-home"></i>Home</a>
         </li>
         <li>
-            <a href="#"><i class="fa fa-university" ></i>Products</a>
+            <a href="{{route('products.index')}}"><i class="fa fa-university" ></i>Products</a>
         </li>
         <li>
             <a href="#"><i class="fa fa-location-arrow" aria-hidden="true"></i>Orders</a>
         </li>
         <li>
-            <a href="#"><i class="fa fa-folder-open" aria-hidden="true"></i>Categories</a>
+            <a href="{{route('categories.index')}}"><i class="fa fa-folder-open" aria-hidden="true"></i>Categories</a>
         </li>
         <li>
-            <a href="#"><i class="fa fa-folder-open" aria-hidden="true"></i>SubCategories</a>
+            <a href="{{route('subcategories.index')}}"><i class="fa fa-folder-open" aria-hidden="true"></i>SubCategories</a>
         </li>
     </ul>
 </nav>
